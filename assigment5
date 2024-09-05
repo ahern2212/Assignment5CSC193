@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script type="text/javascript" src= "fancifymytext.js"></script>
+    </head>
+
+<body>
+    <!-- A field set box for users to enter text. -->
+     <fieldset style="width: 500px;">
+
+        <legend>Text</legend>
+
+        <textarea rows="4" cols="30" id="text_id"></textarea>
+	</fieldset>
+    
+     <br><br>
+     <!-- A fieldset to put UI controls. -->
+
+     <fieldset style="width: 500px;">
+    <legend>Fancify</legend>
+
+    <!-- button -->
+     <button onclick="new_function()">Bigger!</button><br><br>
+
+
+     <!--Radio Buttons-->
+     <input type="radio" name="r" value="FancyShmancy" id="fancy_radio_button" onchange="new_function()">FancyShmancy
+     <input type="radio" name="r" value="BoringBetty"  id="boring_radio_button" onchange="new_function()">BoringBetty
+
+    </fieldset>
+
+    <br>
+    <br>
+
+    <!--button to chage the text filed to upper case and add moo-->
+    <button  onclick="moo()">Moo</button>
+</body>
+</html>
